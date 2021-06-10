@@ -1,0 +1,73 @@
+header{
+    font-size: 16px; 
+
+}
+
+header a:link {
+    color: black;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+header a:visited {
+    color: black;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+header a:hover {
+    text-decoration:underline;
+}
+
+footer a:link {
+    color:gray;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+footer a:visited {
+    color:gray;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+footer a:hover {
+    text-decoration:underline;
+}
+
+.topnavLeft {
+    position: relative;
+    top: 15px;
+    left: 12px;
+    
+}
+
+.topnavRight {
+    position: relative;
+    float: right;
+    top: 0px;
+    right: 50px;
+}
+
+#googleLogo {
+    position: relative;
+    top: 148px;
+    left:39%;
+}
+
+.footerLeft, .footerRight {
+    color: red;
+}
+
+.footerLeft {
+    position: fixed;
+    bottom: 10px;
+    left: 30px;
+    
+}
+
+.footerRight {
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+}
