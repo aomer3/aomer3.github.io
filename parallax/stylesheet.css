@@ -76,3 +76,10 @@ body, html {
 .ptext .border.trans{
     background-color: transparent;
 }
+
+/*Disabling the parallax effect on mobile devices since it tends to causes problems on mobile*/
+@media(max-width: 568px){
+    .pimg1, .pimg2, .pimg3, .pimg4{
+        background-attachment: scroll;
+    }
+}
