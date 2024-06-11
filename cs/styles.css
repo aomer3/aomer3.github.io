@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header, .para, .project-links {
+    margin: 20px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}
+
+.header {
+    font-size: 50px;
+}
+
+.para {
+    font-size: 25px;
+
+}
+.project-links {
+    list-style: none;
+}
+
+.container{
+    background-image: url(../img/js-logo.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 20px;
+    padding-bottom: 200px;
+}
+
